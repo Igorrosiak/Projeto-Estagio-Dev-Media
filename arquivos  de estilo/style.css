@@ -129,6 +129,7 @@ article.apres_img > .imagens{
     display: flex;
     padding-top: 1em;
     height: 65vh;
+    justify-content: space-between;
 }
 
 article.apres_img > .imagens > .imagem_grande{
@@ -156,7 +157,56 @@ article.apres_img > .imagens > .imagens_pequenas img{
 }
 
 article.apres_img > .imagens > .imagem_grande2{
-    width: 50%;
+    width: 49%;
     height: 90%;
-    background-color: white;
+}
+
+article.apres_img > .imagens > .imagem_grande2 > img{
+    width: 100%;
+}
+
+article.apres_img > .imagens > .imagem_grande2 > h2{
+    margin-top: 0.3em;
+    text-indent: 0.5em;
+}
+
+article.apres_img > .imagens > .imagem_grande2 > .cinza{
+    margin-top: 1.4em;
+    color: gray;
+    text-indent: 0.8em;
+}
+
+article.apres_img > .imagens > .imagem_grande2 > .texto_meio{
+    margin-top: 1em;
+    text-indent: 0.8em;
+}
+
+article.apres_img > .imagens > .imagem_grande2 > .ticket{
+    margin-top: 1.7em;
+    text-indent: 2.5em;
+}
+
+article.parte_cinza{
+    background-color: rgb(65, 65, 65);
+    margin: 2em 10% 0 10%;
+    padding: 1.5em 1em;
+    color: white;
+}
+
+article.parte_cinza > h1{
+    font-size: 2.5em;
+}
+
+article.parte_cinza > p{
+    margin-top: 1em;
+}
+
+article.parte_cinza > div{
+    margin-top: 1em;
+}
+
+article.parte_cinza > button{
+    background-color: rgb(255, 129, 129);
+    border: none;
+    width: 6em;
 }
