@@ -27,6 +27,7 @@ header > i{
 
 article.imagem_fundo{
     background-image: url("../imagens/london.jpg");
+    background-position: center;
     background-size: cover;
     height: 95vh;
     width: 100vw;
@@ -48,7 +49,7 @@ div.opcoes{
 
 div.opcoes > ul{
     display: flex;
-    height: 2em;
+    height: 5vh;
 }
 
 div.opcoes > ul > li{
@@ -123,7 +124,7 @@ article.apres_img > .imagens{
     width: 100%;
     display: flex;
     padding-top: 1em;
-    height: 65vh;
+    height: 53vh;
     justify-content: space-between;
 }
 
@@ -277,4 +278,38 @@ footer > p{
 footer > div.logos{
     text-align: center;
     margin-top: 1.5em;
+}
+
+@media (max-width: 768px){
+    header{
+        height: 4vh;
+        padding: 0 160px;
+    }
+
+    article.imagem_fundo{
+        height: 60vh;
+    }
+
+    div.container{
+        width: 85%;
+        height: 60%;
+    }
+
+    article.apres_img{
+        padding: 0 4% 0 4%;
+        
+    }
+
+    article.apres_img > .imagens{
+        height: 30vh;
+    }
+        /* article.parte_cinza{
+        ?
+    } */
+
+    article.final{
+        padding: 0 4% 0 4%;
+    }
+
+    
 }
